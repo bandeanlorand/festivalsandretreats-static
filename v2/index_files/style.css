@@ -301,6 +301,7 @@ h6 {
 	clear: both;
 	font-weight: 700;
 	font-family: "Mulish", sans-serif;
+	/* font-family: Cambria, Georgia, serif; */
 }
 
 p {
@@ -2421,3 +2422,31 @@ input[type="submit"]:active {
 .home .content-area .site-main h3+h3:has(a) {
 	margin-top: 5rem;
 }
+
+
+.bottom-links .event-single {
+	border: 0px solid #c0c0c0;
+	border-radius: 0px;
+	padding: 0px 0px;
+	margin-bottom: 40px;}
+	
+.bottom-links .event-single h3 a {
+			color: #00612E;
+		text-decoration: none;
+		font-size: 28px;
+		font-family: "Mulish", sans-serif;
+	}
+	.newsletter-small-form-wrapper {
+		border: 1px solid #2d612f !important;
+		border-radius: 0px !important;
+		padding: 30px 20px 0px 20px;
+	}
+	.wpcf7 .newsletter-small-form-wrapper  h1 {
+		font-size: 38px;
+		font-weight: 700;
+    font-family: "Mulish", sans-serif;
+		color: #2d612f;
+		display: inline;
+		vertical-align: middle;
+		line-height: 110%;
+	}
