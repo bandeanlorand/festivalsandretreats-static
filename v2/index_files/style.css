@@ -624,12 +624,12 @@ a:active {
 }
 
 .site-header h2 {
-	font-family: Cambria, Georgia, serif;
+	
 	font-size: 0.9rem;
 	padding: 0rem 1rem 0rem 10px;
 	margin-top: 0;
 	text-align: left;
-	/* font-family: "Indie Flower", cursive; */
+	font-family: "Indie Flower", cursive;
 	font-weight: 400;
 	font-style: normal;
 	color: #00612E;
