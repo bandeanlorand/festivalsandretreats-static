@@ -928,8 +928,6 @@ button.menu-toggle:hover {
 	transition: ease-in-out 0.2s all;
 
 	/* background-color: lime; */
-
-
 -webkit-backface-visibility: hidden;
 -webkit-transform-style: preserve-3d;
 
@@ -1459,6 +1457,17 @@ a .event-title-box:hover {
 }
 
 @media screen and (min-width: 1024px) {
+
+	.toggled-on+div li {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+	
+	.toggled-on+div li a {
+		border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+		margin: 0;
+	}
 	body:after {
 		content:"↑";
 		position: fixed;
