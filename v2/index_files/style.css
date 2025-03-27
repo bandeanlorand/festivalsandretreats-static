@@ -1641,7 +1641,7 @@ a .event-title-box:hover {
 		font-size: 1.4rem;
 	}
 	.site-header.scrolled .site-branding-inner a.logo{
-		max-width: 6.5vw;
+		max-width: 98px;
 	}
 	.site-branding-inner::before {
 		content: "";
