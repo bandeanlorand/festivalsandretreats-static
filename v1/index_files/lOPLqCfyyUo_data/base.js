@@ -6185,7 +6185,7 @@ WL(this.api,"setPlaybackRate",function(m){typeof m==="number"&&J.api.setPlayback
 dwq=function(z){z=z.jO();if(!z)return!1;z=g.iv(z).exp||"";return z.includes("xpv")||z.includes("xpe")};
 I9u=function(z){z=g.y(g.Tp(z,!0));for(var J=z.next();!J.done;J=z.next())if(dwq(J.value))return!0;return!1};
 O4q=function(z,J){z=g.y(g.Tp(z,!0));for(var m=z.next();!m.done;m=z.next())if(m=m.value,dwq(m)){var e={potc:"1",pot:J};m.url&&(m.url=cf(m.url,e))}};
-pab=function(z){var J=new EVE,m={},e=(m["X-Goog-Api-Key"]="AIzaSyDyT5W0Jh49F30Pqqtyfdf7pDLFKLJoAnw",m);return new $a(J,z,function(){return e})};
+pab=function(z){var J=new EVE,m={},e=(m["X-Goog-Api-Key"]="",m);return new $a(J,z,function(){return e})};
 yt1=function(z){return g.D(function(J){if(J.K==1)return g.Yu(J,2),g.S(J,z,4);if(J.K!=2)return g.aq(J,0);g.Kq(J);g.nq(J)})};
 ZT=function(z){rd.call(this,z);var J=this;this.useLivingRoomPoToken=!1;this.U=new g.CS;this.hZ=null;this.V=!1;this.S=null;this.Z=!1;var m=z.W().getWebPlayerContextConfig();this.events=new g.jl(z);g.u(this,this.events);this.events.L(z,"spsumpreject",function(e,T,E){J.Z=T;e&&J.V&&!J.S&&(J.C("html5_generate_content_po_token")&&E?J.wS(E):J.C("html5_generate_session_po_token")&&NM4(J));J.S||J.api.ph("stp",{s:+J.V,b:+J.Z})});
 this.events.L(z,"poTokenVideoBindingChange",function(e){J.wS(e)});
