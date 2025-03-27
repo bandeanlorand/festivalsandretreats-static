@@ -598,6 +598,10 @@ a:active {
 	font-size: 1.05rem;
 }
 
+.site-header.scrolled .site-branding-inner h2{
+	font-size: 0.7rem;
+}
+
 .site-header.scrolled .site-branding {
 	padding: 8px 24px;
 	height: 70px;
@@ -628,12 +632,12 @@ a:active {
 }
 
 .site-header h2 {
-	/*font-family: Cambria, Georgia, serif;*/
-	font-size: 0.9rem;
+	/* font-family: Cambria, Georgia, serif; */
+	font-size: 0.8rem;
 	padding: 0rem 1rem 0rem 10px;
 	margin-top: 0;
 	text-align: left;
-	 font-family: "Indie Flower", cursive; 
+	font-family: "Indie Flower", cursive;
 	font-weight: 400;
 	font-style: normal;
 	color: #00612E;
@@ -842,6 +846,8 @@ a:active {
 	border: 0;
 	background-color: transparent !important;
 	padding: 0;
+	position: absolute;
+	right:12px;
 }
 
 button.menu-toggle:hover {
@@ -919,7 +925,7 @@ button.menu-toggle:hover {
 	border-bottom: 1px solid #ccc;
 	/* margin-bottom: 24px; */
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 	background-color: #fff;;
 }
@@ -1261,12 +1267,7 @@ a .event-title-box:hover {
 		/* transform: scale(0.83); */
 		/* margin-left: -40px; */
 	}
-	.site-header.scrolled .site-branding-inner h1{
-		font-size: 2.1rem;
-	}
-	.site-header.scrolled .site-branding-inner h2{
-		font-size: 1.05rem;
-	}
+	
 
 	/* position of dropdown menu - styles starts here */
 	.site-header .menu-main-container {
@@ -1288,7 +1289,7 @@ a .event-title-box:hover {
 
 	/* position of dropdown menu - styles ends here */
 	.site-header h1 {
-		font-size: 2.2em;
+		font-size: 2.0em;
 		margin-bottom: 0em;
 		text-align: left;
 		line-height: 1em;
@@ -1296,10 +1297,15 @@ a .event-title-box:hover {
 	}
 
 	.site-header h2 {
-		font-size: 1.2em;
+		font-size: 1.1em;
 		margin-bottom: 0;
 	}
-
+	.site-header.scrolled .site-branding-inner h1{
+		font-size: 1.6rem;
+	}
+	.site-header.scrolled .site-branding-inner h2{
+		font-size: 0.8rem;
+	}
 	.search-button {
 		font-size: 3em;
 	}
@@ -1473,7 +1479,12 @@ a .event-title-box:hover {
 		-webkit-line-clamp: 3;
 		overflow: hidden;
 	}
-
+	.festival-menu-image {
+        
+        float: left !important;
+        font-size: 18px !important;
+       
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -1613,6 +1624,7 @@ a .event-title-box:hover {
 		transition: ease-in-out 0.3s;
 		margin-left: auto;
 		transform: scale(1);
+		top:15px;
 	}
 
 	.site-header.scrolled .site-branding-inner {
@@ -1627,6 +1639,9 @@ a .event-title-box:hover {
 	.site-header.scrolled .site-branding-inner h2{
 		font-size: 1.4rem;
 	}
+	.site-header.scrolled .site-branding-inner a.logo{
+		max-width: 6.5vw;
+	}
 	.site-branding-inner::before {
 		content: "";
 		width: 1200px;
@@ -1634,8 +1649,6 @@ a .event-title-box:hover {
 		height: 70px;
 		display: block;
 		background-color: #fff;
-
-
 		top: 0;
 		z-index: 1;
 		opacity: 0.9;
@@ -1648,7 +1661,7 @@ a .event-title-box:hover {
 		box-shadow: 1px 1px 1px #ccc;
 		width: calc(100% + 260px);
 		transform: scale(2);
-		height: 82px;
+		height: 65px;
 		top: 0;
 		z-index: 1;
 	}
@@ -1676,7 +1689,7 @@ a .event-title-box:hover {
 		font-size: 2.4rem;
 	}
 	.site-header.scrolled .site-branding-inner h2{
-		font-size: 1.5rem;
+		font-size: 1.7rem;
 	}
 
 	.site-branding-inner a {
