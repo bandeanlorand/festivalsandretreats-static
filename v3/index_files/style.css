@@ -1827,7 +1827,7 @@ a .event-title-box:hover {
 	.content-area {
 		padding-right: 0;
 	}
-	.monthLinks{
+	#monthLinks{
 		display: flex;
   justify-content: space-between;
 	}
