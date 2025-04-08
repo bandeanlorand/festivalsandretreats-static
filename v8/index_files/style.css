@@ -1141,10 +1141,10 @@ a .event-title-box:hover {
 }
 .event-right-column p.event-date {
 	font-size: 1.1rem;
-	font-family: "Bebas Neue", sans-serif;
-	line-height: 100%;
-	margin-top: -2px;
-	margin-bottom: -6px;
+  font-family: "Bebas Neue", sans-serif;
+  line-height: 110%;
+  margin-top: -2px;
+  margin-bottom: -4px;
 }
 .event-right-column p.event-date b{
 	font-size: 1.5rem;
